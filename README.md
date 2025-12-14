@@ -80,9 +80,16 @@ comment
 
 
 
-Some past Academy porject
 
-RENTSMART 
+
+
+
+
+
+Some past Academy project
+
+RENTSMART  Major Academy project
+
 https://rentmaintain3.vercel.app/
 
 
