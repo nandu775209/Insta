@@ -1,0 +1,83 @@
+/* Poore page ka background */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa; /* Light grey background */
+}
+
+/* Login Card Styling */
+.login-card {
+  background-color: white;
+  padding: 40px;
+  border: 1px solid #dbdbdb;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft shadow */
+}
+
+/* "Insta Mini" Title */
+.login-title {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  /* Gradient text effect */
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Form Styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px; /* Inputs ke beech gap */
+}
+
+/* Input Fields */
+.login-input {
+  width: 100%;
+  padding: 10px 8px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  background-color: #fafafa;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.login-input:focus {
+  border: 1px solid #a8a8a8;
+}
+
+
+.login-btn {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #1877f2;
+}
+
+
+
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
